@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color:white;
+}
+/* ------------site__varaibles----------- */
+
+:root{
+    --bg-color:black;
+    --primary_color:rgb(94, 4, 94);
+}
+
+.bg-color{
+    background-color: var(--bg-color)!important;
+}
+.text-primary{
+    color: var(--primary_color)!important;
+}
+.card-body{
+    background-color: rgb(46, 43, 43);
+    
+}
+
+/* ------------site__varaibles----------- */
+
+
+/* her0__section */
+.hero{
+    background:red url('../images/2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
